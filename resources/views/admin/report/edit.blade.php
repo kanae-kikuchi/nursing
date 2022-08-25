@@ -40,7 +40,7 @@
 
     
     <button class="btn btn-primary">登録</button>
-    <a class="btn btn-outline-primary" href="{{ action('Admin\StaffController@index') }}">戻る</a>
+    <a class="btn btn-outline-primary" href="{{ action('Admin\ReportController@index') }}">戻る</a>
     <input type="submit" class="btn btn-primary" value="削除">
 </form>
 

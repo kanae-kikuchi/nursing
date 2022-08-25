@@ -14,11 +14,23 @@
             </div>
         </div>
         <div class="form-group row">
+            <label class="col-md-2">Email</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="email" value="{{ old('email') }}">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-2">パスワード</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="password" value="{{ old('password') }}">
+            </div>
+        </div>
+        <!-- <div class="form-group row">
             <label class="col-md-2">生年月日</label>
             <div class="col-md-10">
                 <input type="date" class="form-control" name="birthday_at" value="{{ old('birthday_at') }}">
             </div>
-        </div>
+        </div> -->
         <div class="form-group row">
             <label class="col-md-2">既往歴</label>
             <div class="col-md-10">

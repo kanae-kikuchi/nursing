@@ -19,18 +19,14 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @foreach ($users as $user)
                         <tr>
                             <td><a href="{{ action('Admin\UserController@edit') }}">編集</a></td>
-                            <td>東京　太郎</td>
-                            <td>75</td>
+                            <td>{{ $user->name }}</td>
+                            <td></td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td><a href="{{ action('Admin\UserController@edit') }}">編集</a></td>
-                            <td>横浜　和子</td>
-                            <td>81</td>
-                            <td></td>
-                        </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>

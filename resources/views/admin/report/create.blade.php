@@ -42,7 +42,7 @@
         </div>
     </div>
     <button class="btn btn-primary">登録</button>
-    <a class="btn btn-outline-primary" href="{{ action('Admin\UserController@index') }}">戻る</a>
+    <a class="btn btn-outline-primary" href="{{ action('Admin\ReportController@index') }}">戻る</a>
     </form>
 </div>
 @endsection
